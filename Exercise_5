@@ -1,0 +1,33 @@
+SWE / Exercise 5
+REST Services with PHP
+Due Saturday, Mar 1st
+
+Assignment Specifications 
+The assignment is two-fold. First, you are to research and write a report no longer than one page describing REST services and REST service functions. Specifically you should address how each function interacts between the client and the server. Second, you are to install the two php files found with this assignment and modify the code in index.php to create a working system. More instructions can be found below.
+
+Objective
+● Form an understanding about REST services through research and implementation
+
+Instructions
+The first thing you should do is research REST services and write a report. Links can be found below. Your report should include a list of the main REST service functions, and how those functions interact between the client and server. In addition, you should also address the question, “Why are REST services predominantly used with the World Wide Web?”
+
+Once you have finished your report, you should begin the main project. Download the two files, index.php and api.php, to babbage under your public_html/swe/ex5 directory. You will need to create the appropriate subdirectories so that the address to locate the files will be:
+	http://babbage.cs.missouri.edu/~pawprint/swe/ex5/index.php
+This is important for how we will grade the assignment so make sure you have it set up properly before you move on.
+
+Next you should open both files and read through them. For this assignment, you will only be modifying index.php. You should NOT modify api.php in any way. You should also NOT add any additional html code in index.php. All of the resources you need are provided. You only need to add the appropriate php code where specified. 
+
+This assignment is a Puppy Database. The puppy data is hard coded in the api.php and has appropriate methods for getting one puppy or the entire list of puppies. The goal of the assignment is to have a working system that properly displays the puppy data as it is specified in the comments of the php files. When you initially open index.php, you will notice that there is an incomplete table and incomplete list, both with headers. The table should display information for a single puppy, while the list should list all puppies by name. The sections should not display at the same time. By default, the page should load the list of puppies. Each name should be a link that shows the rest of the puppy information. Once at the puppy information, there should be a link that returns the user to the puppy list. The assignment is complete once all of the puppy data is properly displayed.
+
+Submit to blackboard:
+Once you have written your summary, with length no greater than one page, submit it to blackboard. Your web page will be evaluated separately.
+
+Additional Information
+REST Service Concept Introduction: 
+	http://babbage.cs.missouri.edu/~klaricm/php_primer/index.php
+	https://www.ibm.com/developerworks/webservices/library/ws-restful/
+PHP Refresher:
+	http://php.net/tutorial
+	http://www.w3schools.com/php/
+And as always:
+http://www.google.com
